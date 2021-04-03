@@ -1,3 +1,4 @@
+if(!process.stdin.isTTY) process.stdin.isTTY = true
 const vite = require("vite");
 
 module.exports = function () {
